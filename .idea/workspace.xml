@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecdf561b-0a37-47ad-a55b-51e3a7ebb04b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/pc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/electronic/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/electronic/templates/electronic/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/electronic/templates/electronic/registration_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/admin.py" afterPath="$PROJECT_DIR$/electronic/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/models.py" afterPath="$PROJECT_DIR$/electronic/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/base.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/home.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/landing.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/landing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/urls.py" afterPath="$PROJECT_DIR$/electronic/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/views.py" afterPath="$PROJECT_DIR$/electronic/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myweb/settings.py" afterPath="$PROJECT_DIR$/myweb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myweb/wsgi.py" afterPath="$PROJECT_DIR$/myweb/wsgi.py" />
-    </list>
+    <list default="true" id="ecdf561b-0a37-47ad-a55b-51e3a7ebb04b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
