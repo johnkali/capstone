@@ -1,0 +1,45 @@
+{% extends 'electronic/landing.html' %}
+
+{% block title %}registration_form{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <div class="col-md-12" style="text-align: center;">
+        <form id="login-form " action="{% url 'electronic:registration_form' %}" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" name="register" value="registration">Register</button>
+
+        </form>
+        <h2>Welcome</h2>
+        <p>You can register in here</p>
+        <p class="text-danger">{{ error_msg }}</p>
+        <!--
+                <form id="login-form " action="{% url 'electronic:registration_form' %}" method="post">
+                    {% csrf_token %}
+                    <label for="username">Username</label>
+                    <br>
+                    <input required type="text" id="username" name="username">
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                    <input required type="password" id="password" name="password">
+                    <br>
+                    <br>
+
+                    <button type="submit" name="login" value="login">Login</button>
+
+                    <div class="checkbox ">
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                        </label>
+                        <p style="text-color:black;">I agree to Terns & Conditions</p>
+
+                    </div>
+                </form>
+                -->
+    </div>
+</div>
+
+{% endblock %}

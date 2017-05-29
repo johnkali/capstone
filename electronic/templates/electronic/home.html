@@ -2,7 +2,45 @@
 
 {% block title %}home{% endblock %}
 
-
 {% block content %}
-<h1>welcome to my homepage</h1>
+{% for persons in person %}
+<p>{{ persons }}</p>
+{% endfor %}
+
+<div class="jumbotron">
+    <div class="container">
+        <h2>Welcome to E-ID Page</h2>
+        <p>This is your own personal Huduma assistant. Get information about your electronic identification here.For more information about the services offered...</p>
+        <p><a class="btn btn-primary btn-lg" href="{% url 'electronic:about' %}" role="button">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Apply For New Id</h2>
+            <p>Here you can apply for a new electronic identification card. You will be prompted to enter some personal details. Kindly give accurate and legitimate details as this details will be used as given in identifying you. There are some requirements that have to be met before you can be allowed to apply for the identification card</p>
+            <p><a class="btn btn-default" href="{% url 'electronic:get_id' %}" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Replace Lost Id</h2>
+            <p>Here you will be able to replace your lost electronic identification card. You can also apply for a new electronic one if the lost identification card was the old one. This is required of only the persons who had ownership of an identification card. You will be asked for your details.</p>
+            <p><a class="btn btn-default" href="{% url 'electronic:rep_id' %}" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>ID Status</h2>
+            <p>Here you can check your ID Status which includes correct information, matching details, you can check the government services that you can access using your electronic identification card. You can also change details about the information contained in your acquired identification card</p>
+            <p><a class="btn btn-default" href="{% url 'electronic:id_stat' %}" role="button">View details &raquo;</a></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>&copy; electronic</p>
+    </footer>
+</div>
+<!-- home content goes here -->
+
 {% endblock %}
