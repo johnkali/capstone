@@ -1,3 +1,4 @@
+<!--
 {% extends 'electronic/landing.html' %}
 
 {% block title %}registration_form{% endblock %}
@@ -6,7 +7,8 @@
 {% block content %}
 <div class="container">
     <div class="col-md-12" style="text-align: center;">
-        <form id="login-form " action="{% url 'electronic:registration_form' %}" method="post">
+       <!--
+       <form id="login-form " action="{% url 'electronic:registration_form' %}" method="post">
             {% csrf_token %}
             {{ form.as_p }}
             <button type="submit" name="register" value="registration">Register</button>
@@ -15,7 +17,7 @@
         <h2>Welcome</h2>
         <p>You can register in here</p>
         <p class="text-danger">{{ error_msg }}</p>
-        <!--
+
                 <form id="login-form " action="{% url 'electronic:registration_form' %}" method="post">
                     {% csrf_token %}
                     <label for="username">Username</label>

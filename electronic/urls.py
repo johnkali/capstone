@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from electronic import views
-from electronic.views import UserFormView
+#from electronic.views import UserFormView
 app_name = 'electronic'
 
 
@@ -13,7 +13,8 @@ urlpatterns =[
     url(r'^get_new_id/$', views.new_id, name='get_id'),
     url(r'^replace_id/$', views.replace_id, name='rep_id'),
     url(r'^id_status/$', views.id_status, name='id_stat'),
-    url(r'^registration_form/$', UserFormView.as_view(), name='registration_form'),
+    url(r'^registration_form/$', views.registration_form, name='registration_form'),
+    url(r'^do_register/$', views.do_register, name = 'do_register'),
 
 ]
 

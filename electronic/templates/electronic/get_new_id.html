@@ -10,22 +10,23 @@
         <h3>Fill in the New ID Application Form</h3>
         <p>Kindly use legitimate credentials as contained in your birth certificate!</p>
 
-        <form id="get_id form" action="" method="post">
+        <form id="get_id form" action="{% url 'electronic:do_register' %}" method="post">
+            {% csrf_token %}
             <label for="firstname">First Name</label>
             <br>
-            <input required type="text" name="firstname">
+            <input required type="text" name="fname">
             <br>
             <label for="secondname">Second Name</label>
             <br>
-            <input required type="text" name="secondname">
+            <input required type="text" name="sname">
             <br>
-            <label for="lastname">Last Name</label>
+            <label for="thirdname">Last Name</label>
             <br>
-            <input required type="text" name="lastname">
+            <input required type="text" name="tname">
             <br>
             <label for="dateofbirth">Date of Birth</label>
             <br>
-            <input required type="date" name="Date of Birth">
+            <input required type="date" name="date_of_birth">
             <br>
             <label for="gender">Gender</label>
             <br>
@@ -39,7 +40,7 @@
             </div>
             <label for="districtofbirth">District of Birth</label>
             <br>
-            <input required type="text" name="District of Birth">
+            <input required type="text" name="district_of_birth">
             <br>
             <br>
             <button type="submit" onclick="alert('Thank you for using our services')">Submit</button>
