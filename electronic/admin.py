@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Person
+from .models import Person, Replacement
 
 
 class PersonAdmin(admin.ModelAdmin):
@@ -15,4 +15,13 @@ class PersonAdmin(admin.ModelAdmin):
     list_display_links = ('first_name',)
 
 
+class ReplacementAdmin(admin.ModelAdmin):
+    list_display = (
+        'first_name',
+        'id_number',
+        'phone_number',
+    )
+
+
 admin.site.register(Person, PersonAdmin)
+admin.site.register(Replacement, ReplacementAdmin)

@@ -1,10 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'electronic/base.html' %}
+
+{% block title %}replace_confirmation{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="col-md-12" style="text-align: center;">
+        <h3>info for id {{ id_info.id_number }} </h3>
+        <p>first name{{id_info.first_name }}</p>
+        <p>second name {{ id_info.second_name }}</p>
+        <p>third name {{ id_info.third_name }}</p>
+        <p>district_of_birth {{ id_info.district_of_birth }}</p>
+        <p>date_of_birth {{ id_info.date_of_birth }}</p>
+        <p>gender {{ id_info.gender }}</p>
+        <form id="get_id form" action="{% url 'electronic:do_replace'%}" method="post">
+            {% csrf_token %}
+            <label for="phone_number">Phone Number</label>
+            <br>
+            <input required type="text" name="PhoneNumber">
+            <br>
+            <label for="idno"></label>
+            <br>
+            <input required value="{{ id_info.id_number }}" type="hidden" name="idno">
+            <br>
+            <br>
+            <button type="submit" onclick="alert('You request for ID replacement has been received')">Request</button>
+
+        </form>
+
+    </div>
+</div>
+{% endblock %}

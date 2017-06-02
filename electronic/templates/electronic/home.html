@@ -3,9 +3,6 @@
 {% block title %}home{% endblock %}
 
 {% block content %}
-{% for persons in person %}
-<p>{{ persons }}</p>
-{% endfor %}
 
 <div class="jumbotron">
     <div class="container">
@@ -26,7 +23,7 @@
         <div class="col-md-4">
             <h2>Replace Lost Id</h2>
             <p>Here you will be able to replace your lost electronic identification card. You can also apply for a new electronic one if the lost identification card was the old one. This is required of only the persons who had ownership of an identification card. You will be asked for your details.</p>
-            <p><a class="btn btn-default" href="{% url 'electronic:rep_id' %}" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-default" href="{% url 'electronic:get_id_info' %}" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
             <h2>ID Status</h2>

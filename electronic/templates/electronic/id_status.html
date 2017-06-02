@@ -4,29 +4,25 @@
 
 {% block content %}
 
- <div class="container">
-    <div class="col-md-12" style="text-align: center;">
+<div class="container">
+    <div class="row text-center">
+        <div class=" col-md-4  text-center">
 
-
-<h3>Get your Identification Card Information Here!</h3>
-<p>Kindly use your ID Number and password here!</p>
-
-<form id="get_id form" action="" method="post">
-    <label for="idnumber/email">ID Number/ Email</label>
-    <br>
-  <input required type="text" name="idnumber/email">
-    <br>
-    <label for="password">Password</label>
-    <br>
-  <input required type="password" name="password">
-    <br>
-  <br>
-<button type="submit" onclick="alert('Thank you for using our services')">Submit</button>
-
-</form>
-
+        <!--
+        <h3>Get your Identification Card Information Here!</h3>
+        <p>Kindly use your ID Number and password here! -->
+        {% if request.user.person.id_status %}
+                <div id="success_status" class="text-center" >
+                     Your ID has been processed!
+                </div>
+        {% else%}
+                <div id="not_ready" class=" text-center ">
+                     Your Id is being processed!
+                 </div>
+        {% endif%}
+        </div>
     </div>
-    </div>
+</div>
 
 
-{% endblock %}
+{% endblock %}alafu

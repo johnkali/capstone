@@ -1,4 +1,3 @@
-<!--
 {% extends 'electronic/landing.html' %}
 
 {% block title %}registration_form{% endblock %}
@@ -7,40 +6,43 @@
 {% block content %}
 <div class="container">
     <div class="col-md-12" style="text-align: center;">
-       <!--
-       <form id="login-form " action="{% url 'electronic:registration_form' %}" method="post">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" name="register" value="registration">Register</button>
+        <!--  <form id="login-form " action="{% url 'electronic:registration_form' %}" method="post">
+           <!--   {{ form.as_p }}
+              <button type="submit" name="register" value="registration">Register</button>
 
-        </form>
+          </form> -->
         <h2>Welcome</h2>
         <p>You can register in here</p>
         <p class="text-danger">{{ error_msg }}</p>
+        {% csrf_token %}
 
-                <form id="login-form " action="{% url 'electronic:registration_form' %}" method="post">
-                    {% csrf_token %}
-                    <label for="username">Username</label>
-                    <br>
-                    <input required type="text" id="username" name="username">
-                    <br>
-                    <label for="password">Password</label>
-                    <br>
-                    <input required type="password" id="password" name="password">
-                    <br>
-                    <br>
+        <form id="login-form " action="{% url 'electronic:account_register' %}" method="post">
+            {% csrf_token %}
+            <label for="username">User Name</label>
+            <br>
+            <input required type="text" id="username" name="username">
+            <br>
+            <label for="username">Email</label>
+            <br>
+            <input required type="text" id="email" name="email">
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input required type="password" id="password" name="password">
+            <br>
+            <br>
 
-                    <button type="submit" name="login" value="login">Login</button>
+            <button type="submit" name="login" value="login">Register</button>
 
-                    <div class="checkbox ">
-                        <label>
-                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
-                        </label>
-                        <p style="text-color:black;">I agree to Terns & Conditions</p>
+            <div class="checkbox ">
+                <label>
+                    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                </label>
+                <p style="text-color:black;">I agree to Terns & Conditions</p>
 
-                    </div>
-                </form>
-                -->
+            </div>
+        </form>
+
     </div>
 </div>
 

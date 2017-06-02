@@ -49,3 +49,24 @@ login-form{
     position: absolute;
     z-index: 2;
 }
+
+#success_status{
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;
+    background-color: teal;
+    color: white;
+    font-size: 3em;
+     padding: 100px;
+}
+
+#not_ready{
+    border-radius: 100%;
+    height: 70vh;
+    background-color: #d50000;
+    color: white;
+    height: 400px;
+    width: 400px;
+    font-size: 3em;
+     padding: 100px;
+}
