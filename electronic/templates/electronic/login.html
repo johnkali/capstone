@@ -4,7 +4,7 @@
 
 
 {% block content %}
-<div class="container">
+<div class="container" id="bad">
     <div class="col-md-12" style="text-align: center;">
 
         <h2>Welcome</h2>
@@ -24,7 +24,7 @@
             <br>
 
             <button type="submit" name="login" value="login">Login</button>
-        <p>Don't have an account?<a class="" href="{% url 'electronic:registration_form' %}" role="">Register Here &raquo;</a></p>
+        <p>Don't have an account?<br><a class="" href="{% url 'electronic:registration_form' %}" role="">Register Here &raquo;</a></p>
             <div class="checkbox ">
                 <label>
                     <input required type="checkbox" id="blankCheckbox" value="option1" aria-label="...">

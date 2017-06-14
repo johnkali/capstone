@@ -4,15 +4,13 @@
 
 {% block content %}
 
-<div class="jumbotron">
-    <div class="container">
-        <h2>Welcome to E-ID Page</h2>
-        <p>This is your own personal Huduma assistant. Get information about your electronic identification here.For more information about the services offered...</p>
-        <p><a class="btn btn-primary btn-lg" href="{% url 'electronic:about' %}" role="button">Learn more &raquo;</a></p>
-    </div>
+<div class="jumbotron" id="up_info">
+        <h2 style="text-align: center;">Welcome to E-ID Page</h2>
+        <p style="text-align: center;">This is your own personal Huduma assistant. Get information about your electronic identification here.For more information about the services offered...</p>
+        <p style="text-align: center;"><a class="btn btn-primary btn-lg" href="{% url 'electronic:about' %}" role="button">Learn more &raquo;</a></p>
 </div>
 
-<div class="container">
+<div class="jumbotron">
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-md-4">

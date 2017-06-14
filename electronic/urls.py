@@ -10,6 +10,7 @@ urlpatterns =[
     url(r'^home/$', views.show_home, name='home'),
     url(r'^logout/$', views.logout_user, name='logout_user'),
     url(r'^about/$', views.show_about, name='about'),
+    url(r'^contact/$', views.show_contact, name='contact'),
     url(r'^get_new_id/$', views.new_id, name='get_id'),
    #url(r'^replace_id/$', views.replace_id, name='rep_id'),
     url(r'^id_status/$', views.id_status, name='id_stat'),

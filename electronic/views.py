@@ -44,6 +44,9 @@ def logout_user(request):
 def show_about(request):
     return render(request, 'electronic/about.html')
 
+def show_contact(request):
+    return render(request, 'electronic/contact.html')
+
 
 def new_id(request):
     return render(request, 'electronic/get_new_id.html')
