@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecdf561b-0a37-47ad-a55b-51e3a7ebb04b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/electronic/static/electronic/images/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/electronic/static/electronic/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/electronic/templates/electronic/contact.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/electronic/img/electronic/kenya-653064_1920.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/about.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/base.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/home.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/landing.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/landing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/login.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/templates/electronic/replace_confirmation.html" afterPath="$PROJECT_DIR$/electronic/templates/electronic/replace_confirmation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/urls.py" afterPath="$PROJECT_DIR$/electronic/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/electronic/views.py" afterPath="$PROJECT_DIR$/electronic/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myweb/settings.py" afterPath="$PROJECT_DIR$/myweb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/constants.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/constants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" />
-    </list>
+    <list default="true" id="ecdf561b-0a37-47ad-a55b-51e3a7ebb04b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
